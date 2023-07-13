@@ -307,6 +307,8 @@ body {
 
   background-image: url(/src/background.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .primary-header {
