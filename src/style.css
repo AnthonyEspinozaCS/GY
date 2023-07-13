@@ -305,6 +305,7 @@ button {
 body {
   position: relative;
 
+  background-color: var(--grey);
   background-image: url(/src/background.jpg);
   background-size: cover;
   background-attachment: fixed;
