@@ -15,6 +15,32 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
+    <header class="primary-header flex" id="home">
+      <div class="header-logo">
+        <a href="/index.html" class="header-link">
+          <img src="/src/logo.png" alt="A house with a heart and cross inside." class="logo" />
+        </a>
+      </div>
+
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+          <li class="active">
+            <a href="index.html" class="ff-sans-normal fs-nav">Home</a>
+          </li>
+          <li class="">
+            <a href="#about-us" class="ff-sans-normal fs-nav">About Us</a>
+          </li>
+          <li class="">
+            <a href="#board" class="ff-sans-normal fs-nav">Our Board</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <section class="hero flex">
         <picture class="hero__image">
@@ -28,31 +54,6 @@
           <h1 class="hero__header ff-sans-normal">Roofing & Building Solutions</h1>
         </div>
       </section>
-      <header class="primary-header flex" id="home">
-        <div class="header-logo">
-          <a href="/index.html" class="header-link">
-            <img src="/src/logo.png" alt="A house with a heart and cross inside." class="logo" />
-          </a>
-        </div>
-
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-          <span class="sr-only">Menu</span>
-        </button>
-
-        <nav>
-          <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-            <li class="active">
-              <a href="index.html" class="ff-sans-normal fs-nav">Home</a>
-            </li>
-            <li class="">
-              <a href="#about-us" class="ff-sans-normal fs-nav">About Us</a>
-            </li>
-            <li class="">
-              <a href="#board" class="ff-sans-normal fs-nav">Our Board</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
 
       <div class="page-content container">
         <section id="about-us" class="about-us fs-medium ff-serif text-black flex">
