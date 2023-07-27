@@ -13,6 +13,7 @@
       content="George Yancci combines cutting-edge roofing technology with traditional craftsmanship to deliver high-quality, sustainable, and durable roofing solutions. We're not just roofers - we're partners in protecting your home. With our unparalleled customer service, comprehensive warranties, and commitment to the community, we provide not just a roof but a roofing experience that brings peace of mind, knowing you've chosen the best for your home or business." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/src/style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <header class="primary-header flex" id="home">
@@ -263,6 +264,25 @@
               </div>
             </section>
           </article>
+          <article class="about-us__article fs-medium flex">
+            <h2 class="about-us__board-header ff-sans-normal fs-600">Contact Us</h2>
+            <form id="contact-form" class="contact-form">
+              <input type="hidden" name="contact_number" />
+              <div class="contact-form--half">
+                <label for="user_name">Name</label>
+                <input type="text" name="user_name" />
+              </div>
+              <div class="contact-form--half">
+                <label for="user_email">Email</label>
+                <input type="email" name="user_email" />
+              </div>
+              <div class="contact-form--full">
+                <label for="message">Message</label>
+                <textarea name="message"></textarea>
+              </div>
+              <input class="btn" type="submit" value="send" />
+            </form>
+          </article>
         </section>
       </div>
     </main>
@@ -279,5 +299,6 @@
     </footer>
 
     <script src="/src/nav.js" async defer></script>
+    <script src="/src/contact.js" async defer></script>
   </body>
 </html>
