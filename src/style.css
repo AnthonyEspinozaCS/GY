@@ -183,6 +183,12 @@ button {
   max-width: min(80rem, 95%);
 }
 
+@media (min-width: 1024px) {
+  .container {
+    padding: 4rem;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
