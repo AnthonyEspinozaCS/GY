@@ -344,12 +344,12 @@ body {
   margin-inline: auto;
 
   font-family: var(--ff-serif);
-  font-size: var(--fs-550);
+  font-size: var(--fs-medium);
 
   color: white;
   background: var(--dark);
   border: 0;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .btn--x {
@@ -728,6 +728,8 @@ button {
   margin-inline: auto;
 
   color: var(--white);
+  font-size: var(--fs-medium);
+
   background-color: #333;
   border: 0;
   border-radius: 5px;
@@ -794,6 +796,7 @@ button {
 .contact-form--full textarea {
   max-width: 100%;
   min-height: 150px;
+  padding: 1rem;
 
   border: 3px solid var(--dark);
   border-radius: 10px;
@@ -803,6 +806,21 @@ button {
   .contact-form--half {
     width: calc(50% - 1rem);
   }
+}
+
+.contact__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact--3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  text-align: center;
 }
 
 footer {
