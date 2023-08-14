@@ -835,6 +835,17 @@ button {
   text-align: center;
 }
 
+.contact--3 a {
+  width: fit-content;
+  margin-inline: auto;
+  padding-bottom: 0.25rem;
+
+  color: var(--dark);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--dark);
+}
+
 footer {
   background: var(--dark);
 }
