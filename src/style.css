@@ -671,7 +671,6 @@ button {
   position: relative;
   flex-wrap: wrap;
   gap: 4rem;
-  padding: 4rem 2rem;
 
   background-color: var(--white);
 }
@@ -756,7 +755,7 @@ button {
 .board__bio {
   flex-direction: column;
 
-  text-align: left;
+  text-align: justify;
 }
 
 .board__bio p {
@@ -822,8 +821,8 @@ button {
 
 .contact__section {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
   justify-content: space-between;
 }
 
@@ -844,6 +843,13 @@ button {
   font-weight: 600;
   text-decoration: none;
   border-bottom: 2px solid var(--dark);
+}
+
+@media (min-width: 768px) {
+  .contact__section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 footer {
