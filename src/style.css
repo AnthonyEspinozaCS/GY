@@ -822,7 +822,7 @@ button {
 .contact__section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
