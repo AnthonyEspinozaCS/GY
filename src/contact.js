@@ -7,7 +7,6 @@ const public_key = "ECZnDfndQHxfORbGd";
 
 window.onload = function () {
   document.getElementById("contact-form").addEventListener("submit", function (event) {
-    event.preventDefault();
     this.client.value = "info@georgeyancci.com";
     this.client_name.value = "George";
     // these IDs from the previous steps
